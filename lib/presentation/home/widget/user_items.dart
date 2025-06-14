@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
 
 class UserItem extends StatelessWidget {
   final UserModel user;

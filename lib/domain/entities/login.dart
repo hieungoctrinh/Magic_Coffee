@@ -1,4 +1,4 @@
-import 'package:flutter_base_bloc/domain/entities/user.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'login.freezed.dart';

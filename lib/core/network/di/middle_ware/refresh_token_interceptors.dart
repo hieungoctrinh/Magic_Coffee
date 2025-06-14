@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_base_bloc/core/network/di/module.dart';
-import 'package:flutter_base_bloc/domain/locals/prefs_service.dart';
-import 'package:flutter_base_bloc/utils/common.dart';
-import 'package:flutter_base_bloc/utils/constants/api_constants.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
+import 'package:magic_coffee/domain/locals/prefs_service.dart';
+import 'package:magic_coffee/utils/common.dart';
+import 'package:magic_coffee/utils/constants/api_constants.dart';
 import 'base_interceptors.dart';
 
 class RefreshTokenInterceptors extends BaseInterceptors {

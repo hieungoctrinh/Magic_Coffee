@@ -1,4 +1,4 @@
-import 'package:flutter_base_bloc/utils/constants/regex_constants.dart';
+import 'package:magic_coffee/utils/constants/regex_constants.dart';
 
 class Validator {
   static bool emptyValidate(String? value) {

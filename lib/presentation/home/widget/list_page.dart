@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/presentation/home/bloc/home_bloc.dart';
-import 'package:flutter_base_bloc/presentation/home/widget/user_items.dart';
-import 'package:flutter_base_bloc/utils/style_utils.dart';
+import 'package:magic_coffee/presentation/home/bloc/home_bloc.dart';
+import 'package:magic_coffee/presentation/home/widget/user_items.dart';
+import 'package:magic_coffee/utils/style_utils.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ListPage extends StatelessWidget {

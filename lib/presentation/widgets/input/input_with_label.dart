@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/resources/styles.dart';
-import 'package:flutter_base_bloc/core/config/themes/app_theme.dart';
-import 'package:flutter_base_bloc/utils/style_utils.dart';
+import 'package:magic_coffee/core/config/resources/styles.dart';
+import 'package:magic_coffee/core/config/themes/app_theme.dart';
+import 'package:magic_coffee/utils/style_utils.dart';
 
 class InputWithLabel<T extends Widget> extends StatelessWidget {
   final String label;

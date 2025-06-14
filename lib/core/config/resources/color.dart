@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const colorPrimary = Color(0xff038757);
+const colorPrimary = Color(0xff324A59);
 const colorForm = Color(0xffE5F0F2);
 const colorTextPrimary = Color(0xff2C2C2C);
 const colorSecondary = Color(0xff9E9E9E);
@@ -38,6 +38,7 @@ abstract class AppColor {
   List<Color> get linearOnboarding;
   List<Color> get linearToolbar;
   List<Color> get linearSystemWallet;
+  List<Color> get linearButton;
 }
 
 class LightApp extends AppColor {
@@ -92,7 +93,11 @@ class LightApp extends AppColor {
         colorSystemLeft,
         colorSystemRight,
       ];
-
+  @override
+  List<Color> get linearButton => [
+        colorPrimary,
+        colorSecondary,
+      ];
   @override
   Color get shadow6 => colorShadow6;
 
@@ -170,7 +175,11 @@ class DarkApp extends AppColor {
         colorSystemLeft,
         colorSystemRight,
       ];
-
+  @override
+  List<Color> get linearButton => [
+        colorPrimary,
+        colorSecondary,
+      ];
   @override
   Color get shadow6 => colorShadow6;
 

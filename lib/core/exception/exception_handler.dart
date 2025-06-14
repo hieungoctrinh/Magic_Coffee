@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_base_bloc/utils/common.dart';
+import 'package:magic_coffee/utils/common.dart';
 
 import 'exception.dart';
 

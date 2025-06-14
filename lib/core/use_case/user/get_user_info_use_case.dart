@@ -1,8 +1,8 @@
-import 'package:flutter_base_bloc/core/network/di/module.dart';
-import 'package:flutter_base_bloc/core/result/result.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
-import 'package:flutter_base_bloc/domain/repository/user_repository.dart';
-import 'package:flutter_base_bloc/core/use_case/base/base_use_case.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
+import 'package:magic_coffee/core/result/result.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
+import 'package:magic_coffee/domain/repository/user_repository.dart';
+import 'package:magic_coffee/core/use_case/base/base_use_case.dart';
 
 class GetUserInfoUseCase implements BaseUseCase<void, Result<UserModel>> {
   final _repo = getIt.get<UserRepository>();

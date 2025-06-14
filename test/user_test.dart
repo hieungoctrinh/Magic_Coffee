@@ -1,10 +1,10 @@
-import 'package:flutter_base_bloc/core/exception/exception.dart';
-import 'package:flutter_base_bloc/data/repository_impl/repo_impl.dart';
-import 'package:flutter_base_bloc/data/request/find_user_request.dart';
-import 'package:flutter_base_bloc/data/response/response_wrapper.dart';
-import 'package:flutter_base_bloc/core/result/result.dart';
-import 'package:flutter_base_bloc/data/services/user_service.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
+import 'package:magic_coffee/core/exception/exception.dart';
+import 'package:magic_coffee/data/repository_impl/repo_impl.dart';
+import 'package:magic_coffee/data/request/find_user_request.dart';
+import 'package:magic_coffee/data/response/response_wrapper.dart';
+import 'package:magic_coffee/core/result/result.dart';
+import 'package:magic_coffee/data/services/user_service.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

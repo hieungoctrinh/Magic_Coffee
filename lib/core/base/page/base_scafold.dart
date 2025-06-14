@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/resources/styles.dart';
-import 'package:flutter_base_bloc/core/config/themes/app_theme.dart';
+import 'package:magic_coffee/core/config/resources/styles.dart';
+import 'package:magic_coffee/core/config/themes/app_theme.dart';
 import 'package:go_router/go_router.dart';
 
 class AppScaffold extends StatelessWidget {

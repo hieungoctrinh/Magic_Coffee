@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/network/di/module.dart';
-import 'package:flutter_base_bloc/domain/locals/prefs_service.dart';
-import 'package:flutter_base_bloc/gen/translations.g.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
+import 'package:magic_coffee/domain/locals/prefs_service.dart';
+import 'package:magic_coffee/gen/translations.g.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 void exitApp() {

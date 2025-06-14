@@ -1,13 +1,13 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/base/page/base_page_state.dart';
-import 'package:flutter_base_bloc/core/base/page/base_scafold.dart';
-import 'package:flutter_base_bloc/core/config/resources/language.dart';
-import 'package:flutter_base_bloc/core/config/themes/app_theme.dart';
-import 'package:flutter_base_bloc/presentation/home/widget/home_page.dart';
-import 'package:flutter_base_bloc/presentation/home/widget/list_page.dart';
-import 'package:flutter_base_bloc/utils/common.dart';
+import 'package:magic_coffee/core/base/page/base_page_state.dart';
+import 'package:magic_coffee/core/base/page/base_scafold.dart';
+import 'package:magic_coffee/core/config/resources/language.dart';
+import 'package:magic_coffee/core/config/themes/app_theme.dart';
+import 'package:magic_coffee/presentation/home/widget/home_page.dart';
+import 'package:magic_coffee/presentation/home/widget/list_page.dart';
+import 'package:magic_coffee/utils/common.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'bloc/home_bloc.dart';

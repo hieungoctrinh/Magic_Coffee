@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/router/router_name.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
-import 'package:flutter_base_bloc/presentation/home/bloc/home_bloc.dart';
+import 'package:magic_coffee/core/config/router/router_name.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
+import 'package:magic_coffee/presentation/home/bloc/home_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 

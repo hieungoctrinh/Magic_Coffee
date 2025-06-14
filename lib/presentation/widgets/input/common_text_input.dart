@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/resources/styles.dart';
-import 'package:flutter_base_bloc/core/config/themes/app_theme.dart';
+import 'package:magic_coffee/core/config/resources/styles.dart';
+import 'package:magic_coffee/core/config/themes/app_theme.dart';
 
 class CommonTextInput extends StatelessWidget {
   final void Function(String)? onChanged;
