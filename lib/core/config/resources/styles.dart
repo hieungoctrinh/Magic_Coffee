@@ -12,9 +12,14 @@ class AppTextStyle {
     fontSize: 20,
     color: AppTheme.getInstance().textPrimary,
   );
+  static final reenieText = GoogleFonts.reenieBeanie(
+    fontWeight: FontWeight.w700,
+    fontSize: 64,
+    color: AppTheme.getInstance().textPrimary,
+  );
   static final regularText = GoogleFonts.poppins(
     fontWeight: FontWeight.w500,
-    fontSize: 16,
+    fontSize: 18,
     color: AppTheme.getInstance().textPrimary,
   );
   static final mediumText = GoogleFonts.poppins(

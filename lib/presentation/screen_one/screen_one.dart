@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/base/page/base_page_state.dart';
-import 'package:flutter_base_bloc/core/base/page/base_scafold.dart';
-import 'package:flutter_base_bloc/gen/assets.gen.dart';
-import 'package:flutter_base_bloc/presentation/screen_one/bloc/screen_one_bloc.dart';
+import 'package:magic_coffee/core/base/page/base_page_state.dart';
+import 'package:magic_coffee/core/base/page/base_scafold.dart';
+import 'package:magic_coffee/gen/assets.gen.dart';
+import 'package:magic_coffee/presentation/screen_one/bloc/screen_one_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ScreenOne extends StatelessWidget {

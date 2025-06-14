@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/network/di/module.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../exception/exception_wrapper.dart';
 import '../../helper/dispose_bag.dart';

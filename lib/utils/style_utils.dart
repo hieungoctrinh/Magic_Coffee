@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/themes/app_theme.dart';
+import 'package:magic_coffee/core/config/themes/app_theme.dart';
 
 import '../core/config/resources/dimens.dart';
 import 'extensions/app_dimen.dart';

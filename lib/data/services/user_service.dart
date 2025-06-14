@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_base_bloc/data/request/create_user_request.dart';
-import 'package:flutter_base_bloc/data/request/find_user_request.dart';
-import 'package:flutter_base_bloc/data/response/response_wrapper.dart';
-import 'package:flutter_base_bloc/domain/entities/login.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
-import 'package:flutter_base_bloc/utils/constants/api_constants.dart';
+import 'package:magic_coffee/data/request/create_user_request.dart';
+import 'package:magic_coffee/data/request/find_user_request.dart';
+import 'package:magic_coffee/data/response/response_wrapper.dart';
+import 'package:magic_coffee/domain/entities/login.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
+import 'package:magic_coffee/utils/constants/api_constants.dart';
 import 'package:injectable/injectable.dart';
 import 'package:retrofit/retrofit.dart';
 

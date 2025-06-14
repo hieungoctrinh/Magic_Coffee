@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/network/di/module.dart';
-import 'package:flutter_base_bloc/domain/locals/prefs_service.dart';
-import 'package:flutter_base_bloc/presentation/home/home_screen.dart';
-import 'package:flutter_base_bloc/presentation/screen_one/screen_one.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
+import 'package:magic_coffee/domain/locals/prefs_service.dart';
+import 'package:magic_coffee/presentation/welcome/welcome.dart';
 import 'package:go_router/go_router.dart';
 
 import 'router_name.dart';
 
 GoRoute _defaultGorouter({
   required RoutesGen router,
-  required Widget page,
+  required Widget Function(BuildContext context, GoRouterState state) builder,
   List<GoRoute> goRoutes = const [],
 }) =>
     GoRoute(
       path: router.path,
       name: router.name,
       routes: goRoutes,
-      builder: (BuildContext context, GoRouterState state) {
-        return page;
-      },
+      builder: builder,
     );
 
 // ignore: unused_element
@@ -55,17 +52,13 @@ GoRoute _transitionRouter({
 
 final GoRouter appRouterConfig = GoRouter(
   navigatorKey: getIt.get<GlobalKey<NavigatorState>>(),
-  initialLocation: RoutesName.home.path,
+  initialLocation: (PrefsService.getToken().isEmpty)
+      ? RoutesName.welcome.path
+      : RoutesName.home.path,
   routes: <RouteBase>[
     _defaultGorouter(
-      router: RoutesName.home,
-      page: const Home(),
-      goRoutes: [
-        _defaultGorouter(
-          router: RoutesName.screenOne,
-          page: const ScreenOne(),
-        ),
-      ],
+      router: RoutesName.welcome,
+      builder: (context, state) => const Welcome(),
     ),
   ],
 );

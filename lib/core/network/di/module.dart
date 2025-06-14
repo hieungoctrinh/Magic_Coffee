@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' as foundation;
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/data/repository_impl/repo_impl.dart';
-import 'package:flutter_base_bloc/data/services/services.dart';
-import 'package:flutter_base_bloc/domain/repository/repository.dart';
+import 'package:magic_coffee/data/repository_impl/repo_impl.dart';
+import 'package:magic_coffee/data/services/services.dart';
+import 'package:magic_coffee/domain/repository/repository.dart';
 import 'package:get_it/get_it.dart';
 
 import '../../base/common/common_bloc.dart';

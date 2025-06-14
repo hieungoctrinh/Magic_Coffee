@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/core/config/resources/language.dart';
-import 'package:flutter_base_bloc/core/config/router/go_router.dart';
-import 'package:flutter_base_bloc/utils/extensions/app_dimen.dart';
+import 'package:magic_coffee/core/config/resources/language.dart';
+import 'package:magic_coffee/core/config/router/go_router.dart';
+import 'package:magic_coffee/utils/extensions/app_dimen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'core/config/themes/app_theme.dart';

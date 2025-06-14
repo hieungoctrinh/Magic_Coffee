@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:flutter_base_bloc/core/base/bloc/base_bloc.dart';
-import 'package:flutter_base_bloc/core/network/di/module.dart';
-import 'package:flutter_base_bloc/core/exception/exception.dart';
-import 'package:flutter_base_bloc/data/request/find_user_request.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
-import 'package:flutter_base_bloc/core/use_case/use_case.dart';
+import 'package:magic_coffee/core/base/bloc/base_bloc.dart';
+import 'package:magic_coffee/core/network/di/module.dart';
+import 'package:magic_coffee/core/exception/exception.dart';
+import 'package:magic_coffee/data/request/find_user_request.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
+import 'package:magic_coffee/core/use_case/use_case.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

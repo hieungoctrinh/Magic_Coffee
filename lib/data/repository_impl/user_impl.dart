@@ -1,11 +1,11 @@
-import 'package:flutter_base_bloc/data/request/create_user_request.dart';
-import 'package:flutter_base_bloc/data/request/find_user_request.dart';
-import 'package:flutter_base_bloc/data/response/response_wrapper.dart';
-import 'package:flutter_base_bloc/core/result/result.dart';
-import 'package:flutter_base_bloc/data/services/user_service.dart';
-import 'package:flutter_base_bloc/domain/entities/login.dart';
-import 'package:flutter_base_bloc/domain/entities/user.dart';
-import 'package:flutter_base_bloc/domain/repository/user_repository.dart';
+import 'package:magic_coffee/data/request/create_user_request.dart';
+import 'package:magic_coffee/data/request/find_user_request.dart';
+import 'package:magic_coffee/data/response/response_wrapper.dart';
+import 'package:magic_coffee/core/result/result.dart';
+import 'package:magic_coffee/data/services/user_service.dart';
+import 'package:magic_coffee/domain/entities/login.dart';
+import 'package:magic_coffee/domain/entities/user.dart';
+import 'package:magic_coffee/domain/repository/user_repository.dart';
 
 class UserRepoImpl implements UserRepository {
   final UserService _service;

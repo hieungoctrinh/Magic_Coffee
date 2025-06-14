@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_bloc/init_app.dart';
+import 'package:magic_coffee/init_app.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'handle_app.dart';
